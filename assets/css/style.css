@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+body {
+  background-color: #121317;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+p {
+  color: #fff;
+  text-align: center;
+  font-size: 48px;
+  min-height: 60px;
+}
+.keyboard {
+  width: 950px;
+  margin: 80px auto 30px;
+  border-radius: 8px;
+  padding: 10px 0;
+  box-shadow: rgba(82, 74, 74, 0.945) 1.95px 1.95px 2.6px,
+    rgba(82, 74, 74, 0.945) -1.95px -1.95px 2.6px;
+}
+.keyboard > div {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+}
+.fourthLine button {
+  width: 37%;
+}
+button {
+  padding: 18px 22px;
+  border-radius: 5px;
+  margin: 0 9px;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: rgba(224, 15, 15, 0.973) 1.55px 1.55px 2.6px,
+    rgba(66, 66, 75, 0.973) -1.95px -1.95px 2.6px;
+  color: #fff;
+  outline: none;
+  transition: box-shadow 0.1s;
+}
+.shadow {
+  box-shadow: rgba(66, 66, 75, 0.973) 3px 3px 2.6px;
+}
